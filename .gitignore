@@ -1,0 +1,57 @@
+# Build directories
+build/
+build-*/
+cmake-build-*/
+out/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# Qt
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+.qmake.stash
+.qmake.cache
+*.autosave
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+
+# IDE
+.vs/
+.vscode/
+*.vcxproj*
+*.sln
+.idea/
+*.user
+
+# Compiled / binaries
+*.exe
+*.dll
+*.obj
+*.o
+*.a
+*.lib
+*.so
+*.dylib
+
+# Локальная БД и резервные копии - не версионируем реальные данные
+*.sqlite
+*.sqlite3
+*.db
+backups/
+
+# OS
+Thumbs.db
+.DS_Store
